@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+/* Général
+---------------------------
+--------------------------- */
+
+body {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: Montserrat;
+}
+
+main {
+    padding-left: 30px;
+}
+
+h1 {
+    color:#1490D7;
+}
+
+
+
+/* Barre de navigation
+---------------------------
+--------------------------- */
+ul {
+    list-style-type: none;
+    margin:0;
+    padding:0;
+    background-color:#283645;
+    overflow:hidden;
+}
+li {
+    float:left;
+}
+
+/* Liens dans la navigation */
+li a {
+    color:white;
+    padding:20px;
+    text-decoration: none;
+    display:block;
+}
+
+/* Survol des liens dans la navigation */
+li a:hover{
+    background-color:#1490D7;
+}
+
+
+/* Pour les exercices
+---------------------------
+--------------------------- */
+.img-ex6 {
+    width : 400px;
+    padding: 30px;
+    background: #333;
+    border-radius: 10px;
+    margin-top: 30px;
+}
+
+.img-ex8 {
+    width : 100px;
+}
+
+/* Pour l'exercice 8 */
+.flex {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.infos_langage {
+    flex-direction: column;
+    margin-left: 20px;
+}
+
+
